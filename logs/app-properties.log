@@ -1,0 +1,18 @@
+[INFO] 26-11-2023 22:14:44 [main] LogUtils - Open: http://127.0.0.1:8000/user/login
+[INFO] 26-11-2023 22:14:44 [main] LogUtils - Get Current URL: http://127.0.0.1:8000/user/login
+[INFO] 26-11-2023 22:14:44 [main] LogUtils - Verify Equals: http://127.0.0.1:8000/user/login CONTAINS /user/login
+[INFO] 26-11-2023 22:14:44 [main] LogUtils - Get Page Title: E-Shop || Login Page
+[INFO] 26-11-2023 22:14:44 [main] LogUtils - Verify Equals: E-Shop || Login Page = E-Shop || Login Page
+[INFO] 26-11-2023 22:14:44 [main] LogUtils - Verify element visible By.xpath: //input[@name='email']
+[INFO] 26-11-2023 22:14:45 [main] LogUtils - Clear text in textbox By.xpath: //input[@name='email']
+[INFO] 26-11-2023 22:14:45 [main] LogUtils - Verify element visible By.xpath: //input[@name='password']
+[INFO] 26-11-2023 22:14:45 [main] LogUtils - Clear text in textbox By.xpath: //input[@name='password']
+[INFO] 26-11-2023 22:14:45 [main] LogUtils - Verify element visible By.xpath: //input[@name='email']
+[INFO] 26-11-2023 22:14:45 [main] LogUtils - Set text: user@gmail.com on element By.xpath: //input[@name='email']
+[INFO] 26-11-2023 22:14:45 [main] LogUtils - Verify element visible By.xpath: //input[@name='password']
+[INFO] 26-11-2023 22:14:46 [main] LogUtils - Set text: 1111 on element By.xpath: //input[@name='password']
+[INFO] 26-11-2023 22:14:46 [main] LogUtils - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 26-11-2023 22:14:51 [main] LogUtils - Click element: By.xpath: //button[normalize-space()='Login']
+[INFO] 26-11-2023 22:14:51 [main] LogUtils - Get Page Title: E-SHOP || HOME PAGE
+[INFO] 26-11-2023 22:14:51 [main] LogUtils - Verify Equals: E-SHOP || HOME PAGE = E-SHOP || HOME PAGE
+[INFO] 26-11-2023 22:14:51 [main] LogUtils - testLogin is pass.
