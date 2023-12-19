@@ -607,22 +607,6 @@ public class WebUI {
         }
     }
 
-    @Step("Verify element visible {0} with timeout {1} second")
-    public static boolean verifyElementVisible(By by, long timeout) {
-        waitForPageLoaded();
-
-        try {
-            WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(timeout));
-            wait.until(ExpectedConditions.visibilityOfElementLocated(by));
-            LogUtils.info("Verify element visible " + by);
-            return true;
-        } catch (Exception e) {
-            LogUtils.error("The element is not visible. " + e.getMessage());
-            Assert.fail("The element is NOT visible. " + by);
-            return false;
-        }
-    }
-
     @Step("Verify element visible {0}")
     public static boolean verifyElementVisible(By by, String message) {
         waitForPageLoaded();
@@ -838,7 +822,7 @@ public class WebUI {
 
     //Wait for Element
 
-    public static WebElement waitForElementVisible(By by, long timeOut) {
+    /*public static WebElement waitForElementVisible(By by, long timeOut) {
         waitForPageLoaded();
 
         try {
@@ -856,7 +840,7 @@ public class WebUI {
             LogUtils.error("Timeout waiting for the element Visible. " + by.toString());
         }
         return null;
-    }
+    }*/
 
     public static WebElement waitForElementVisible(By by) {
         waitForPageLoaded();

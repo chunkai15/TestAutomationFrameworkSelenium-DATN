@@ -16,3 +16,660 @@
 [INFO] 26-11-2023 22:14:51 [main] LogUtils - Get Page Title: E-SHOP || HOME PAGE
 [INFO] 26-11-2023 22:14:51 [main] LogUtils - Verify Equals: E-SHOP || HOME PAGE = E-SHOP || HOME PAGE
 [INFO] 26-11-2023 22:14:51 [main] LogUtils - testLogin is pass.
+[INFO] 10-12-2023 22:30:39 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 10-12-2023 22:30:39 [main] LogUtils - Verify element visible By.xpath: //a[@class='action-btn']
+[INFO] 10-12-2023 22:30:41 [main] LogUtils - Click element: By.xpath: //a[@class='action-btn']
+[INFO] 10-12-2023 22:30:41 [main] LogUtils - Get Current URL: https://ecommerce.kendzz.com/auth
+[INFO] 10-12-2023 22:30:41 [main] LogUtils - Verify Equals: https://ecommerce.kendzz.com/auth CONTAINS /auth
+[INFO] 10-12-2023 22:30:41 [main] LogUtils - Get Page Title: Đăng nhập
+[INFO] 10-12-2023 22:30:41 [main] LogUtils - Verify Equals: Đăng nhập = Đăng nhập
+[INFO] 10-12-2023 22:30:41 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 10-12-2023 22:30:42 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='email']
+[INFO] 10-12-2023 22:30:42 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 10-12-2023 22:30:42 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 10-12-2023 22:30:42 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 10-12-2023 22:30:42 [main] LogUtils - Set text: kun@qa.team on element By.xpath: //input[@id='email']
+[INFO] 10-12-2023 22:30:43 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 10-12-2023 22:30:43 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 10-12-2023 22:30:43 [main] LogUtils - Verify element visible By.xpath: //button[@id='btn-login']
+[INFO] 10-12-2023 22:30:43 [main] LogUtils - Click element: By.xpath: //button[@id='btn-login']
+[INFO] 10-12-2023 22:30:43 [main] LogUtils - testLogin is pass.
+[INFO] 12-12-2023 23:08:36 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 12-12-2023 23:08:36 [main] LogUtils - Verify element visible By.xpath: //a[@class='action-btn']
+[INFO] 12-12-2023 23:08:38 [main] LogUtils - Click element: By.xpath: //a[@class='action-btn']
+[INFO] 12-12-2023 23:08:38 [main] LogUtils - Get Current URL: https://ecommerce.kendzz.com/auth
+[INFO] 12-12-2023 23:08:38 [main] LogUtils - Verify Equals: https://ecommerce.kendzz.com/auth CONTAINS /auth
+[INFO] 12-12-2023 23:08:38 [main] LogUtils - Get Page Title: Đăng nhập
+[INFO] 12-12-2023 23:08:38 [main] LogUtils - Verify Equals: Đăng nhập = Đăng nhập
+[INFO] 12-12-2023 23:08:38 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 12-12-2023 23:08:39 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='email']
+[INFO] 12-12-2023 23:08:39 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 12-12-2023 23:08:39 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 12-12-2023 23:08:39 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 12-12-2023 23:08:39 [main] LogUtils - Set text: kun@qa.team on element By.xpath: //input[@id='email']
+[INFO] 12-12-2023 23:08:40 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 12-12-2023 23:08:40 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 12-12-2023 23:08:40 [main] LogUtils - Verify element visible By.xpath: //button[@id='btn-login']
+[INFO] 12-12-2023 23:08:41 [main] LogUtils - Click element: By.xpath: //button[@id='btn-login']
+[INFO] 12-12-2023 23:08:41 [main] LogUtils - testLogin is pass.
+[INFO] 18-12-2023 21:08:50 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 18-12-2023 21:08:51 [main] LogUtils - Verify element visible By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:08:53 [main] LogUtils - Click element: By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:08:53 [main] LogUtils - Get Current URL: https://ecommerce.kendzz.com/auth
+[INFO] 18-12-2023 21:08:53 [main] LogUtils - Verify Equals: https://ecommerce.kendzz.com/auth CONTAINS /auth
+[INFO] 18-12-2023 21:08:53 [main] LogUtils - Get Page Title: Đăng nhập
+[INFO] 18-12-2023 21:08:53 [main] LogUtils - Verify Equals: Đăng nhập = Đăng nhập
+[INFO] 18-12-2023 21:08:53 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:08:53 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:08:53 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:08:54 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:08:54 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:08:54 [main] LogUtils - Set text: kun@qa.team on element By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:08:54 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:08:54 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:08:54 [main] LogUtils - Verify element visible By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:08:55 [main] LogUtils - Click element: By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:08:57 [main] LogUtils - Scroll to element By.xpath: //div[contains(text(),'ki ki')]
+[INFO] 18-12-2023 21:09:02 [main] LogUtils - Verify element visible By.xpath: //div[contains(text(),'ki ki')]
+[INFO] 18-12-2023 21:09:02 [main] LogUtils - Verify Equals: ki ki = ki ki
+[INFO] 18-12-2023 21:09:02 [main] LogUtils - testLogin is pass.
+[INFO] 18-12-2023 21:24:39 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 18-12-2023 21:24:40 [main] LogUtils - Verify element visible By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:24:41 [main] LogUtils - Click element: By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:24:41 [main] LogUtils - Get Current URL: https://ecommerce.kendzz.com/auth
+[INFO] 18-12-2023 21:24:41 [main] LogUtils - Verify Equals: https://ecommerce.kendzz.com/auth CONTAINS /auth
+[INFO] 18-12-2023 21:24:41 [main] LogUtils - Get Page Title: Đăng nhập
+[INFO] 18-12-2023 21:24:41 [main] LogUtils - Verify Equals: Đăng nhập = Đăng nhập
+[INFO] 18-12-2023 21:24:41 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:24:41 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:24:42 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:24:42 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:24:42 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:24:42 [main] LogUtils - Set text: kun@qa.team on element By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:24:42 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:24:42 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:24:43 [main] LogUtils - Verify element visible By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:24:43 [main] LogUtils - Click element: By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:24:44 [main] LogUtils - Javascript in NOT Ready!
+[INFO] 18-12-2023 21:24:46 [main] LogUtils - Scroll to element By.xpath: //div[contains(text(),'ki ki')]
+[ERROR] 18-12-2023 21:24:56 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //div[contains(text(),'ki ki')]
+[ERROR] 18-12-2023 21:24:57 [main] LogUtils - testLogin is fail.
+[INFO] 18-12-2023 21:25:05 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 18-12-2023 21:25:05 [main] LogUtils - Javascript in NOT Ready!
+[INFO] 18-12-2023 21:25:06 [main] LogUtils - Verify element visible By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:25:08 [main] LogUtils - Click element: By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:25:08 [main] LogUtils - Get Current URL: https://ecommerce.kendzz.com/auth
+[INFO] 18-12-2023 21:25:08 [main] LogUtils - Verify Equals: https://ecommerce.kendzz.com/auth CONTAINS /auth
+[INFO] 18-12-2023 21:25:08 [main] LogUtils - Get Page Title: Đăng nhập
+[INFO] 18-12-2023 21:25:08 [main] LogUtils - Verify Equals: Đăng nhập = Đăng nhập
+[INFO] 18-12-2023 21:25:08 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:25:08 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:25:09 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:25:09 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:25:09 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:25:09 [main] LogUtils - Set text: kunnn@qa.team on element By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:25:09 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:25:09 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:25:10 [main] LogUtils - Verify element visible By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:25:10 [main] LogUtils - Click element: By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:25:10 [main] LogUtils - Verify element visible By.xpath: //p[@class='notiflix-report-message']
+[INFO] 18-12-2023 21:25:10 [main] LogUtils - Verify element visible By.xpath: //p[@class='notiflix-report-message']
+[INFO] 18-12-2023 21:25:11 [main] LogUtils - Verify element visible By.xpath: //p[@class='notiflix-report-message']
+[INFO] 18-12-2023 21:25:11 [main] LogUtils - Verify Equals: Đăng nhập không thành công! Vui lòng kiểm tra lại thông tin! = Đăng nhập không thành công! Vui lòng kiểm tra lại thông tin!
+[INFO] 18-12-2023 21:25:11 [main] LogUtils - testLoginWithUsernameInvalid is pass.
+[INFO] 18-12-2023 21:27:34 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 18-12-2023 21:27:34 [main] LogUtils - Verify element visible By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:27:35 [main] LogUtils - Click element: By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:27:35 [main] LogUtils - Get Current URL: https://ecommerce.kendzz.com/auth
+[INFO] 18-12-2023 21:27:35 [main] LogUtils - Verify Equals: https://ecommerce.kendzz.com/auth CONTAINS /auth
+[INFO] 18-12-2023 21:27:35 [main] LogUtils - Get Page Title: Đăng nhập
+[INFO] 18-12-2023 21:27:35 [main] LogUtils - Verify Equals: Đăng nhập = Đăng nhập
+[INFO] 18-12-2023 21:27:36 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:27:36 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:27:36 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:27:36 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:27:36 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:27:37 [main] LogUtils - Set text: kun@qa.team on element By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:27:37 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:27:37 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:27:37 [main] LogUtils - Verify element visible By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:27:37 [main] LogUtils - Click element: By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:27:40 [main] LogUtils - Scroll to element By.xpath: //div[contains(text(),'ki ki')]
+[ERROR] 18-12-2023 21:27:50 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //div[contains(text(),'ki ki')]
+[ERROR] 18-12-2023 21:27:51 [main] LogUtils - testLogin is fail.
+[INFO] 18-12-2023 21:27:57 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 18-12-2023 21:27:58 [main] LogUtils - Verify element visible By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:28:00 [main] LogUtils - Click element: By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:28:00 [main] LogUtils - Get Current URL: https://ecommerce.kendzz.com/auth
+[INFO] 18-12-2023 21:28:00 [main] LogUtils - Verify Equals: https://ecommerce.kendzz.com/auth CONTAINS /auth
+[INFO] 18-12-2023 21:28:00 [main] LogUtils - Get Page Title: Đăng nhập
+[INFO] 18-12-2023 21:28:00 [main] LogUtils - Verify Equals: Đăng nhập = Đăng nhập
+[INFO] 18-12-2023 21:28:00 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:28:00 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:28:00 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:28:01 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:28:01 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:28:01 [main] LogUtils - Set text: kunnn@qa.team on element By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:28:02 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:28:02 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:28:02 [main] LogUtils - Verify element visible By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:28:02 [main] LogUtils - Click element: By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:28:03 [main] LogUtils - Verify element visible By.xpath: //p[@class='notiflix-report-message']
+[INFO] 18-12-2023 21:28:03 [main] LogUtils - Verify element visible By.xpath: //p[@class='notiflix-report-message']
+[INFO] 18-12-2023 21:28:03 [main] LogUtils - Verify element visible By.xpath: //p[@class='notiflix-report-message']
+[INFO] 18-12-2023 21:28:03 [main] LogUtils - Verify Equals: Đăng nhập không thành công! Vui lòng kiểm tra lại thông tin! = Đăng nhập không thành công! Vui lòng kiểm tra lại thông tin!
+[INFO] 18-12-2023 21:28:03 [main] LogUtils - testLoginWithUsernameInvalid is pass.
+[INFO] 18-12-2023 21:29:42 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 18-12-2023 21:29:43 [main] LogUtils - Verify element visible By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:29:44 [main] LogUtils - Click element: By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:29:44 [main] LogUtils - Get Current URL: https://ecommerce.kendzz.com/auth
+[INFO] 18-12-2023 21:29:44 [main] LogUtils - Verify Equals: https://ecommerce.kendzz.com/auth CONTAINS /auth
+[INFO] 18-12-2023 21:29:44 [main] LogUtils - Get Page Title: Đăng nhập
+[INFO] 18-12-2023 21:29:44 [main] LogUtils - Verify Equals: Đăng nhập = Đăng nhập
+[INFO] 18-12-2023 21:29:44 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:29:44 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:29:45 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:29:45 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:29:45 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:29:45 [main] LogUtils - Set text: kun@qa.team on element By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:29:45 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:29:45 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:29:45 [main] LogUtils - Verify element visible By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:29:46 [main] LogUtils - Click element: By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:29:49 [main] LogUtils - Scroll to element By.xpath: //div[contains(text(),'ki ki')]
+[INFO] 18-12-2023 21:29:56 [main] LogUtils - Verify element visible By.xpath: //div[contains(text(),'ki ki')]
+[INFO] 18-12-2023 21:29:56 [main] LogUtils - Verify Equals: ki ki = ki ki
+[INFO] 18-12-2023 21:29:56 [main] LogUtils - testLogin is pass.
+[INFO] 18-12-2023 21:30:00 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 18-12-2023 21:30:01 [main] LogUtils - Javascript in NOT Ready!
+[INFO] 18-12-2023 21:30:03 [main] LogUtils - Verify element visible By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:30:04 [main] LogUtils - Click element: By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:30:04 [main] LogUtils - Get Current URL: https://ecommerce.kendzz.com/auth
+[INFO] 18-12-2023 21:30:04 [main] LogUtils - Verify Equals: https://ecommerce.kendzz.com/auth CONTAINS /auth
+[INFO] 18-12-2023 21:30:04 [main] LogUtils - Get Page Title: Đăng nhập
+[INFO] 18-12-2023 21:30:04 [main] LogUtils - Verify Equals: Đăng nhập = Đăng nhập
+[INFO] 18-12-2023 21:30:04 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:30:04 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:30:04 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:30:05 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:30:05 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:30:05 [main] LogUtils - Set text: kunnn@qa.team on element By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:30:05 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:30:05 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:30:05 [main] LogUtils - Verify element visible By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:30:05 [main] LogUtils - Click element: By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:30:06 [main] LogUtils - Verify element visible By.xpath: //p[@class='notiflix-report-message']
+[INFO] 18-12-2023 21:30:06 [main] LogUtils - Verify element visible By.xpath: //p[@class='notiflix-report-message']
+[INFO] 18-12-2023 21:30:06 [main] LogUtils - Verify element visible By.xpath: //p[@class='notiflix-report-message']
+[INFO] 18-12-2023 21:30:06 [main] LogUtils - Verify Equals: Đăng nhập không thành công! Vui lòng kiểm tra lại thông tin! = Đăng nhập không thành công! Vui lòng kiểm tra lại thông tin!
+[INFO] 18-12-2023 21:30:06 [main] LogUtils - testLoginWithUsernameInvalid is pass.
+[INFO] 18-12-2023 21:46:45 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 18-12-2023 21:46:45 [main] LogUtils - Verify element visible By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:46:46 [main] LogUtils - Click element: By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:46:46 [main] LogUtils - Get Current URL: https://ecommerce.kendzz.com/auth
+[INFO] 18-12-2023 21:46:46 [main] LogUtils - Verify Equals: https://ecommerce.kendzz.com/auth CONTAINS /auth
+[INFO] 18-12-2023 21:46:46 [main] LogUtils - Get Page Title: Đăng nhập
+[INFO] 18-12-2023 21:46:46 [main] LogUtils - Verify Equals: Đăng nhập = Đăng nhập
+[INFO] 18-12-2023 21:46:46 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:46:46 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:46:46 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:46:46 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:46:46 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:46:47 [main] LogUtils - Set text: kun@qa.team on element By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:46:47 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:46:47 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:46:47 [main] LogUtils - Verify element visible By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:46:47 [main] LogUtils - Click element: By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:46:50 [main] LogUtils - Scroll to element By.xpath: //div[contains(text(),'ki ki')]
+[INFO] 18-12-2023 21:46:59 [main] LogUtils - Verify element visible By.xpath: //div[contains(text(),'ki ki')]
+[INFO] 18-12-2023 21:46:59 [main] LogUtils - Verify Equals: ki ki = ki ki
+[INFO] 18-12-2023 21:46:59 [main] LogUtils - testLogin is pass.
+[INFO] 18-12-2023 21:47:04 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 18-12-2023 21:47:04 [main] LogUtils - Javascript in NOT Ready!
+[INFO] 18-12-2023 21:47:05 [main] LogUtils - Verify element visible By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:47:06 [main] LogUtils - Click element: By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:47:06 [main] LogUtils - Get Current URL: https://ecommerce.kendzz.com/auth
+[INFO] 18-12-2023 21:47:06 [main] LogUtils - Verify Equals: https://ecommerce.kendzz.com/auth CONTAINS /auth
+[INFO] 18-12-2023 21:47:06 [main] LogUtils - Get Page Title: Đăng nhập
+[INFO] 18-12-2023 21:47:06 [main] LogUtils - Verify Equals: Đăng nhập = Đăng nhập
+[INFO] 18-12-2023 21:47:06 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:47:06 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:47:06 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:47:06 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:47:07 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:47:07 [main] LogUtils - Set text: kun@qa.team on element By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:47:07 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:47:07 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:47:07 [main] LogUtils - Verify element visible By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:47:07 [main] LogUtils - Click element: By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:47:09 [main] LogUtils - Verify element visible By.xpath: //div[contains(text(),'ki ki')]
+[INFO] 18-12-2023 21:47:09 [main] LogUtils - Verify element visible By.xpath: //div[contains(text(),'ki ki')]
+[INFO] 18-12-2023 21:47:09 [main] LogUtils - Verify Equals: ki ki = ki ki
+[INFO] 18-12-2023 21:47:10 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 18-12-2023 21:47:11 [main] LogUtils - Hover on element By.xpath: //a[@id='dropdownAvatarNameButton']
+[ERROR] 18-12-2023 21:47:21 [main] LogUtils - Element not exist. By.xpath: //a[contains(text(),'Đăng xuất')]
+[ERROR] 18-12-2023 21:47:22 [main] LogUtils - logOut is fail.
+[INFO] 18-12-2023 21:50:05 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 18-12-2023 21:50:05 [main] LogUtils - Verify element visible By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:50:07 [main] LogUtils - Click element: By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:50:07 [main] LogUtils - Get Current URL: https://ecommerce.kendzz.com/auth
+[INFO] 18-12-2023 21:50:07 [main] LogUtils - Verify Equals: https://ecommerce.kendzz.com/auth CONTAINS /auth
+[INFO] 18-12-2023 21:50:07 [main] LogUtils - Get Page Title: Đăng nhập
+[INFO] 18-12-2023 21:50:07 [main] LogUtils - Verify Equals: Đăng nhập = Đăng nhập
+[INFO] 18-12-2023 21:50:07 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:50:07 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:50:07 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:50:07 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:50:07 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:50:08 [main] LogUtils - Set text: kun@qa.team on element By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:50:08 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:50:08 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:50:08 [main] LogUtils - Verify element visible By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:50:08 [main] LogUtils - Click element: By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:50:11 [main] LogUtils - Scroll to element By.xpath: //div[contains(text(),'ki ki')]
+[INFO] 18-12-2023 21:50:21 [main] LogUtils - Verify element visible By.xpath: //div[contains(text(),'ki ki')]
+[INFO] 18-12-2023 21:50:21 [main] LogUtils - Verify Equals: ki ki = ki ki
+[INFO] 18-12-2023 21:50:21 [main] LogUtils - testLogin is pass.
+[INFO] 18-12-2023 21:50:28 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 18-12-2023 21:50:28 [main] LogUtils - Javascript in NOT Ready!
+[INFO] 18-12-2023 21:50:31 [main] LogUtils - Verify element visible By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:50:32 [main] LogUtils - Click element: By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:50:32 [main] LogUtils - Get Current URL: https://ecommerce.kendzz.com/auth
+[INFO] 18-12-2023 21:50:32 [main] LogUtils - Verify Equals: https://ecommerce.kendzz.com/auth CONTAINS /auth
+[INFO] 18-12-2023 21:50:32 [main] LogUtils - Get Page Title: Đăng nhập
+[INFO] 18-12-2023 21:50:32 [main] LogUtils - Verify Equals: Đăng nhập = Đăng nhập
+[INFO] 18-12-2023 21:50:32 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:50:32 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:50:32 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:50:33 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:50:33 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:50:33 [main] LogUtils - Set text: kun@qa.team on element By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:50:33 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:50:33 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:50:33 [main] LogUtils - Verify element visible By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:50:33 [main] LogUtils - Click element: By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:50:35 [main] LogUtils - Verify element visible By.xpath: //div[contains(text(),'ki ki')]
+[INFO] 18-12-2023 21:50:36 [main] LogUtils - Verify element visible By.xpath: //div[contains(text(),'ki ki')]
+[INFO] 18-12-2023 21:50:36 [main] LogUtils - Verify Equals: ki ki = ki ki
+[INFO] 18-12-2023 21:50:36 [main] LogUtils - Hover on element By.xpath: //a[@id='dropdownAvatarNameButton']
+[ERROR] 18-12-2023 21:50:46 [main] LogUtils - Element not exist. By.xpath: //a[contains(text(),'Đăng xuất')]
+[ERROR] 18-12-2023 21:50:47 [main] LogUtils - logOut is fail.
+[INFO] 18-12-2023 21:54:43 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 18-12-2023 21:54:44 [main] LogUtils - Verify element visible By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:54:44 [main] LogUtils - Click element: By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:54:44 [main] LogUtils - Get Current URL: https://ecommerce.kendzz.com/auth
+[INFO] 18-12-2023 21:54:45 [main] LogUtils - Verify Equals: https://ecommerce.kendzz.com/auth CONTAINS /auth
+[INFO] 18-12-2023 21:54:45 [main] LogUtils - Get Page Title: Đăng nhập
+[INFO] 18-12-2023 21:54:45 [main] LogUtils - Verify Equals: Đăng nhập = Đăng nhập
+[INFO] 18-12-2023 21:54:45 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:54:45 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:54:45 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:54:45 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:54:45 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:54:45 [main] LogUtils - Set text: kun@qa.team on element By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:54:45 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:54:46 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:54:46 [main] LogUtils - Verify element visible By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:54:46 [main] LogUtils - Click element: By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:54:48 [main] LogUtils - Scroll to element By.xpath: //div[contains(text(),'ki ki')]
+[ERROR] 18-12-2023 21:54:58 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //div[contains(text(),'ki ki')]
+[ERROR] 18-12-2023 21:54:59 [main] LogUtils - testLogin is fail.
+[INFO] 18-12-2023 21:55:07 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 18-12-2023 21:55:07 [main] LogUtils - Javascript in NOT Ready!
+[INFO] 18-12-2023 21:55:09 [main] LogUtils - Verify element visible By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:55:10 [main] LogUtils - Click element: By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:55:10 [main] LogUtils - Get Current URL: https://ecommerce.kendzz.com/auth
+[INFO] 18-12-2023 21:55:10 [main] LogUtils - Verify Equals: https://ecommerce.kendzz.com/auth CONTAINS /auth
+[INFO] 18-12-2023 21:55:10 [main] LogUtils - Get Page Title: Đăng nhập
+[INFO] 18-12-2023 21:55:10 [main] LogUtils - Verify Equals: Đăng nhập = Đăng nhập
+[INFO] 18-12-2023 21:55:10 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:55:10 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:55:10 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:55:11 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:55:11 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:55:11 [main] LogUtils - Set text: kun@qa.team on element By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:55:11 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:55:12 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:55:12 [main] LogUtils - Verify element visible By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:55:12 [main] LogUtils - Click element: By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:55:15 [main] LogUtils - Scroll to element By.xpath: //div[contains(text(),'ki ki')]
+[ERROR] 18-12-2023 21:55:25 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //div[contains(text(),'ki ki')]
+[ERROR] 18-12-2023 21:55:25 [main] LogUtils - logOut is fail.
+[INFO] 18-12-2023 21:57:33 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 18-12-2023 21:57:33 [main] LogUtils - Verify element visible By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:57:34 [main] LogUtils - Click element: By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:57:34 [main] LogUtils - Get Current URL: https://ecommerce.kendzz.com/auth
+[INFO] 18-12-2023 21:57:34 [main] LogUtils - Verify Equals: https://ecommerce.kendzz.com/auth CONTAINS /auth
+[INFO] 18-12-2023 21:57:34 [main] LogUtils - Get Page Title: Đăng nhập
+[INFO] 18-12-2023 21:57:34 [main] LogUtils - Verify Equals: Đăng nhập = Đăng nhập
+[INFO] 18-12-2023 21:57:35 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:57:35 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:57:35 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:57:35 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:57:35 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:57:35 [main] LogUtils - Set text: kun@qa.team on element By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:57:35 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:57:36 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:57:36 [main] LogUtils - Verify element visible By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:57:36 [main] LogUtils - Click element: By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:57:39 [main] LogUtils - Scroll to element By.xpath: //div[contains(text(),'ki ki')]
+[ERROR] 18-12-2023 21:57:49 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //div[contains(text(),'ki ki')]
+[ERROR] 18-12-2023 21:57:50 [main] LogUtils - testLogin is fail.
+[INFO] 18-12-2023 21:57:57 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 18-12-2023 21:57:57 [main] LogUtils - Javascript in NOT Ready!
+[INFO] 18-12-2023 21:57:58 [main] LogUtils - Verify element visible By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:57:59 [main] LogUtils - Click element: By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:57:59 [main] LogUtils - Get Current URL: https://ecommerce.kendzz.com/auth
+[INFO] 18-12-2023 21:57:59 [main] LogUtils - Verify Equals: https://ecommerce.kendzz.com/auth CONTAINS /auth
+[INFO] 18-12-2023 21:58:00 [main] LogUtils - Get Page Title: Đăng nhập
+[INFO] 18-12-2023 21:58:00 [main] LogUtils - Verify Equals: Đăng nhập = Đăng nhập
+[INFO] 18-12-2023 21:58:00 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:58:00 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:58:00 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:58:00 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:58:00 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:58:01 [main] LogUtils - Set text: kun@qa.team on element By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:58:01 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:58:01 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:58:01 [main] LogUtils - Verify element visible By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:58:01 [main] LogUtils - Click element: By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:58:04 [main] LogUtils - Scroll to element By.xpath: //div[contains(text(),'ki ki')]
+[ERROR] 18-12-2023 21:58:15 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //div[contains(text(),'ki ki')]
+[ERROR] 18-12-2023 21:58:15 [main] LogUtils - logOut is fail.
+[INFO] 18-12-2023 21:59:36 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 18-12-2023 21:59:36 [main] LogUtils - Verify element visible By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:59:39 [main] LogUtils - Click element: By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 21:59:39 [main] LogUtils - Get Current URL: https://ecommerce.kendzz.com/auth
+[INFO] 18-12-2023 21:59:39 [main] LogUtils - Verify Equals: https://ecommerce.kendzz.com/auth CONTAINS /auth
+[INFO] 18-12-2023 21:59:39 [main] LogUtils - Get Page Title: Đăng nhập
+[INFO] 18-12-2023 21:59:39 [main] LogUtils - Verify Equals: Đăng nhập = Đăng nhập
+[INFO] 18-12-2023 21:59:39 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:59:39 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:59:39 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:59:39 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:59:39 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:59:40 [main] LogUtils - Set text: kun@qa.team on element By.xpath: //input[@id='email']
+[INFO] 18-12-2023 21:59:40 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:59:40 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 18-12-2023 21:59:40 [main] LogUtils - Verify element visible By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:59:40 [main] LogUtils - Click element: By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 21:59:42 [main] LogUtils - Scroll to element By.xpath: //div[contains(text(),'ki ki')]
+[INFO] 18-12-2023 21:59:50 [main] LogUtils - Verify element visible By.xpath: //div[contains(text(),'ki ki')]
+[INFO] 18-12-2023 21:59:50 [main] LogUtils - Verify Equals: ki ki = ki ki
+[INFO] 18-12-2023 21:59:50 [main] LogUtils - Mouse hover on element By.xpath: //div[@class='dropdown-menu']
+[INFO] 18-12-2023 21:59:51 [main] LogUtils - Click on element with JS: By.xpath: /html[1]/body[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/a[1]
+[INFO] 18-12-2023 21:59:51 [main] LogUtils - Get Current URL: https://ecommerce.kendzz.com/auth
+[INFO] 18-12-2023 21:59:51 [main] LogUtils - Verify Equals: https://ecommerce.kendzz.com/auth CONTAINS /auth
+[INFO] 18-12-2023 21:59:51 [main] LogUtils - logOut is pass.
+[INFO] 18-12-2023 22:06:57 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 18-12-2023 22:06:57 [main] LogUtils - Verify element visible By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 22:06:59 [main] LogUtils - Click element: By.xpath: //a[@class='action-btn']
+[INFO] 18-12-2023 22:06:59 [main] LogUtils - Get Current URL: https://ecommerce.kendzz.com/auth
+[INFO] 18-12-2023 22:06:59 [main] LogUtils - Verify Equals: https://ecommerce.kendzz.com/auth CONTAINS /auth
+[INFO] 18-12-2023 22:06:59 [main] LogUtils - Get Page Title: Đăng nhập
+[INFO] 18-12-2023 22:06:59 [main] LogUtils - Verify Equals: Đăng nhập = Đăng nhập
+[INFO] 18-12-2023 22:06:59 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 22:06:59 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='email']
+[INFO] 18-12-2023 22:06:59 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 22:06:59 [main] LogUtils - Clear text in textbox By.xpath: //input[@id='password']
+[INFO] 18-12-2023 22:06:59 [main] LogUtils - Verify element visible By.xpath: //input[@id='email']
+[INFO] 18-12-2023 22:07:00 [main] LogUtils - Set text: kun@qa.team on element By.xpath: //input[@id='email']
+[INFO] 18-12-2023 22:07:00 [main] LogUtils - Verify element visible By.xpath: //input[@id='password']
+[INFO] 18-12-2023 22:07:00 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 18-12-2023 22:07:00 [main] LogUtils - Verify element visible By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 22:07:00 [main] LogUtils - Click element: By.xpath: //button[@id='btn-login']
+[INFO] 18-12-2023 22:07:02 [main] LogUtils - Click on element with JS: By.xpath: //a[@id='dropdownAvatarNameButton']
+[INFO] 18-12-2023 22:07:03 [main] LogUtils - Verify element visible By.xpath: //input[@id='last-name']
+[INFO] 18-12-2023 22:07:03 [main] LogUtils - Verify element visible By.xpath: //input[@id='last-name']
+[INFO] 18-12-2023 22:07:03 [main] LogUtils - Verify Equals:  != ki ki
+[ERROR] 18-12-2023 22:07:03 [main] LogUtils - testLogin is fail.
+[INFO] 18-12-2023 23:26:40 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[ERROR] 18-12-2023 23:26:51 [main] LogUtils - Element not exist. By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[ERROR] 18-12-2023 23:26:52 [main] LogUtils - testSearch is fail.
+[INFO] 19-12-2023 20:20:09 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 19-12-2023 20:20:09 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 20:20:10 [main] LogUtils - Clear text in textbox By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 20:20:10 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 20:20:10 [main] LogUtils - Set text: Pierre Cardin on element By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 20:20:14 [main] LogUtils - Javascript in NOT Ready!
+[INFO] 19-12-2023 20:20:15 [main] LogUtils - testSearch is pass.
+[INFO] 19-12-2023 20:33:02 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 19-12-2023 20:33:03 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 20:33:03 [main] LogUtils - Clear text in textbox By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 20:33:03 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 20:33:03 [main] LogUtils - Set text: Pierre Cardin on element By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[ERROR] 19-12-2023 20:33:05 [main] LogUtils - testSearch is fail.
+[INFO] 19-12-2023 20:40:56 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 19-12-2023 20:40:57 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 20:40:57 [main] LogUtils - Clear text in textbox By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 20:40:57 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 20:40:57 [main] LogUtils - Set text: Pierre Cardin on element By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 20:41:00 [main] LogUtils - Javascript in NOT Ready!
+[INFO] 19-12-2023 20:41:02 [main] LogUtils - testSearch is pass.
+[INFO] 19-12-2023 20:43:56 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 19-12-2023 20:43:56 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 20:43:56 [main] LogUtils - Clear text in textbox By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 20:43:57 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 20:43:57 [main] LogUtils - Set text: Pierre Cardin on element By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 20:44:02 [main] LogUtils - Javascript in NOT Ready!
+[INFO] 19-12-2023 20:44:03 [main] LogUtils - Verify Equals: 83%
+TÌM KIẾM - PIERRE CARDIN
+Xira Đánh Giày Thương Hiệu Pierre Cardin PCASPCC001
+8.330 VND
+49.000 VND
+TÌM KIẾM - PIERRE CARDIN
+Giày Boots Nữ Pierre Cardin Icy PCWFWS152
+2.490.000 VND
+80%
+TÌM KIẾM - PIERRE CARDIN
+Giày Boots Nữ Pierre Cardin Cloudy PCWFWS153
+98.000 VND
+490.000 VND
+80%
+TÌM KIẾM - PIERRE CARDIN
+Giày Boots Nữ Pierre Cardin Chilly PCWFWS155
+98.000 VND
+490.000 VND
+62%
+TÌM KIẾM - PIERRE CARDIN
+Dép Nam Pierre Cardin - PCMFWS151
+186.200 VND
+490.000 VND
+67%
+TÌM KIẾM - PIERRE CARDIN
+Sandal Nữ Pierre Cardin - PCWFWSG196
+161.700 VND
+490.000 VND
+50%
+TÌM KIẾM - PIERRE CARDIN
+Giày Cao Gót Nữ Pierre Cardin Đế Vuông Cao 7cm - PCWFWSG 221
+372.500 VND
+745.000 VND
+60%
+TÌM KIẾM - PIERRE CARDIN
+Giày Lười Thời Trang Nam Pierre Cardin PCMFWL 905
+396.000 VND
+990.000 VND
+65%
+TÌM KIẾM - PIERRE CARDIN
+Giày Búp Bê Nữ Pierre Cardin Chất Liệu Da Cao Cấp, Thiết Kế Tối Giản - PCWFWL 207
+241.500 VND
+690.000 VND CONTAINS Pierre Cardin
+[INFO] 19-12-2023 20:44:03 [main] LogUtils - testSearch is pass.
+[INFO] 19-12-2023 21:20:25 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 19-12-2023 21:20:25 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 21:20:26 [main] LogUtils - Clear text in textbox By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 21:20:26 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 21:20:26 [main] LogUtils - Set text: Pierre Cardin on element By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 21:20:29 [main] LogUtils - Javascript in NOT Ready!
+[INFO] 19-12-2023 21:20:30 [main] LogUtils - testSearchAndOpenPDP is pass.
+[INFO] 19-12-2023 22:18:04 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 19-12-2023 22:18:05 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:18:05 [main] LogUtils - Clear text in textbox By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:18:05 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:18:05 [main] LogUtils - Set text: Pierre Cardin on element By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:18:08 [main] LogUtils - Javascript in NOT Ready!
+[ERROR] 19-12-2023 22:18:21 [main] LogUtils - Element not exist. By.xpath: //body/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/input[1]
+[ERROR] 19-12-2023 22:18:22 [main] LogUtils - testAddToCart is fail.
+[INFO] 19-12-2023 22:22:24 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 19-12-2023 22:22:25 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:22:25 [main] LogUtils - Clear text in textbox By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:22:25 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:22:25 [main] LogUtils - Set text: Pierre Cardin on element By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:22:28 [main] LogUtils - Javascript in NOT Ready!
+[ERROR] 19-12-2023 22:22:40 [main] LogUtils - Element not exist. By.xpath: //body/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/input[1]
+[ERROR] 19-12-2023 22:22:41 [main] LogUtils - testAddToCart is fail.
+[INFO] 19-12-2023 22:23:30 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 19-12-2023 22:23:31 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:23:31 [main] LogUtils - Clear text in textbox By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:23:31 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:23:32 [main] LogUtils - Set text: Pierre Cardin on element By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:23:34 [main] LogUtils - Javascript in NOT Ready!
+[INFO] 19-12-2023 22:23:37 [main] LogUtils - testSearchAndOpenPDP is pass.
+[INFO] 19-12-2023 22:29:23 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 19-12-2023 22:29:23 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:29:24 [main] LogUtils - Clear text in textbox By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:29:24 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:29:24 [main] LogUtils - Set text: Pierre Cardin on element By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:29:27 [main] LogUtils - Javascript in NOT Ready!
+[ERROR] 19-12-2023 22:29:29 [main] LogUtils - testAddToCart is fail.
+[INFO] 19-12-2023 22:31:05 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 19-12-2023 22:31:05 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:31:06 [main] LogUtils - Clear text in textbox By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:31:06 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:31:06 [main] LogUtils - Set text: Pierre Cardin on element By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:31:09 [main] LogUtils - Javascript in NOT Ready!
+[ERROR] 19-12-2023 22:31:10 [main] LogUtils - testAddToCart is fail.
+[INFO] 19-12-2023 22:36:20 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 19-12-2023 22:36:20 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:36:20 [main] LogUtils - Clear text in textbox By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:36:21 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:36:21 [main] LogUtils - Set text: Pierre Cardin on element By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:36:25 [main] LogUtils - Javascript in NOT Ready!
+[ERROR] 19-12-2023 22:36:37 [main] LogUtils - Element not exist. By.xpath: //body/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/input[1]
+[ERROR] 19-12-2023 22:36:37 [main] LogUtils - testAddToCart is fail.
+[INFO] 19-12-2023 22:37:55 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 19-12-2023 22:37:56 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:37:56 [main] LogUtils - Clear text in textbox By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:37:56 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:37:57 [main] LogUtils - Set text: Pierre Cardin on element By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:37:59 [main] LogUtils - Javascript in NOT Ready!
+[ERROR] 19-12-2023 22:38:11 [main] LogUtils - Element not exist. By.xpath: //body/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/input[1]
+[ERROR] 19-12-2023 22:38:12 [main] LogUtils - testAddToCart is fail.
+[INFO] 19-12-2023 22:39:55 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 19-12-2023 22:39:56 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:39:56 [main] LogUtils - Clear text in textbox By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:39:56 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:39:56 [main] LogUtils - Set text: Pierre Cardin on element By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:39:59 [main] LogUtils - Javascript in NOT Ready!
+[ERROR] 19-12-2023 22:40:10 [main] LogUtils - Element not exist. By.xpath: //body/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/input[1]
+[ERROR] 19-12-2023 22:40:11 [main] LogUtils - testAddToCart is fail.
+[INFO] 19-12-2023 22:42:27 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 19-12-2023 22:42:27 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:42:27 [main] LogUtils - Clear text in textbox By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:42:27 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:42:27 [main] LogUtils - Set text: Pierre Cardin on element By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:42:30 [main] LogUtils - Javascript in NOT Ready!
+[ERROR] 19-12-2023 22:42:33 [main] LogUtils - testAddToCart is fail.
+[INFO] 19-12-2023 22:44:27 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 19-12-2023 22:44:28 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:44:28 [main] LogUtils - Clear text in textbox By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:44:28 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:44:28 [main] LogUtils - Set text: Pierre Cardin on element By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:44:31 [main] LogUtils - Javascript in NOT Ready!
+[ERROR] 19-12-2023 22:44:44 [main] LogUtils - Element not exist. By.xpath: //body/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/input[1]
+[ERROR] 19-12-2023 22:44:44 [main] LogUtils - testAddToCart is fail.
+[INFO] 19-12-2023 22:50:31 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 19-12-2023 22:50:31 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:50:32 [main] LogUtils - Clear text in textbox By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:50:32 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:50:32 [main] LogUtils - Set text: Pierre Cardin on element By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:50:36 [main] LogUtils - Javascript in NOT Ready!
+[ERROR] 19-12-2023 22:50:47 [main] LogUtils - Element not exist. By.xpath: //body/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/input[1]
+[ERROR] 19-12-2023 22:50:48 [main] LogUtils - testAddToCart is fail.
+[INFO] 19-12-2023 22:52:28 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 19-12-2023 22:52:29 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:52:29 [main] LogUtils - Clear text in textbox By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:52:29 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:52:29 [main] LogUtils - Set text: Pierre Cardin on element By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:52:32 [main] LogUtils - Javascript in NOT Ready!
+[ERROR] 19-12-2023 22:52:42 [main] LogUtils - Element not exist. By.xpath: //body/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/input[1]
+[ERROR] 19-12-2023 22:52:43 [main] LogUtils - testAddToCart is fail.
+[INFO] 19-12-2023 22:53:32 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 19-12-2023 22:53:32 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:53:32 [main] LogUtils - Clear text in textbox By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:53:32 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:53:32 [main] LogUtils - Set text: Pierre Cardin on element By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 22:53:36 [main] LogUtils - Javascript in NOT Ready!
+[ERROR] 19-12-2023 22:53:46 [main] LogUtils - Element not exist. By.xpath: //body/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/input[1]
+[ERROR] 19-12-2023 22:53:47 [main] LogUtils - testAddToCart is fail.
+[INFO] 19-12-2023 23:09:07 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 19-12-2023 23:09:07 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 23:09:08 [main] LogUtils - Clear text in textbox By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 23:09:08 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 23:09:08 [main] LogUtils - Set text: Pierre Cardin on element By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 23:09:11 [main] LogUtils - Javascript in NOT Ready!
+[ERROR] 19-12-2023 23:09:22 [main] LogUtils - Element not exist. By.xpath: //body/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/input[1]
+[ERROR] 19-12-2023 23:09:23 [main] LogUtils - testAddToCart is fail.
+[INFO] 19-12-2023 23:09:59 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 19-12-2023 23:09:59 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 23:09:59 [main] LogUtils - Clear text in textbox By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 23:09:59 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 23:09:59 [main] LogUtils - Set text: Pierre Cardin on element By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 23:10:02 [main] LogUtils - Javascript in NOT Ready!
+[ERROR] 19-12-2023 23:10:13 [main] LogUtils - Element not exist. By.xpath: (//h3[@class='showcase-title'])[0]
+[ERROR] 19-12-2023 23:10:13 [main] LogUtils - testAddToCart is fail.
+[INFO] 19-12-2023 23:12:39 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 19-12-2023 23:12:40 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 23:12:40 [main] LogUtils - Clear text in textbox By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 23:12:40 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 23:12:41 [main] LogUtils - Set text: Pierre Cardin on element By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 23:12:46 [main] LogUtils - Javascript in NOT Ready!
+[ERROR] 19-12-2023 23:12:58 [main] LogUtils - Element not exist. By.xpath: (//h3[@class='showcase-title'])[0]
+[ERROR] 19-12-2023 23:12:58 [main] LogUtils - testAddToCart is fail.
+[INFO] 19-12-2023 23:20:29 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 19-12-2023 23:20:29 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 23:20:29 [main] LogUtils - Clear text in textbox By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 23:20:29 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 23:20:29 [main] LogUtils - Set text: Pierre Cardin on element By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 23:20:32 [main] LogUtils - Javascript in NOT Ready!
+[INFO] 19-12-2023 23:20:45 [main] LogUtils - Click on element with JS: By.xpath: (//h3[@class='showcase-title'])[1]
+[INFO] 19-12-2023 23:20:45 [main] LogUtils - Javascript in NOT Ready!
+[INFO] 19-12-2023 23:20:45 [main] LogUtils - Verify element visible By.xpath: //body/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/input[1]
+[INFO] 19-12-2023 23:20:45 [main] LogUtils - Clear text in textbox By.xpath: //body/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/input[1]
+[INFO] 19-12-2023 23:20:45 [main] LogUtils - Verify element visible By.xpath: //body/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/input[1]
+[INFO] 19-12-2023 23:20:45 [main] LogUtils - Set text: 1 on element By.xpath: //body/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/input[1]
+[INFO] 19-12-2023 23:20:45 [main] LogUtils - Verify element visible By.xpath: //button[contains(text(),'Thêm vào giỏ hàng')]
+[INFO] 19-12-2023 23:20:46 [main] LogUtils - Click element: By.xpath: //button[contains(text(),'Thêm vào giỏ hàng')]
+[INFO] 19-12-2023 23:20:46 [main] LogUtils - testAddToCart is pass.
+[INFO] 19-12-2023 23:21:43 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 19-12-2023 23:21:43 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 23:21:44 [main] LogUtils - Clear text in textbox By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 23:21:44 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 23:21:44 [main] LogUtils - Set text: Pierre Cardin on element By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 23:21:47 [main] LogUtils - Javascript in NOT Ready!
+[ERROR] 19-12-2023 23:21:59 [main] LogUtils - Element not exist. By.xpath: (//h3[@class='showcase-title'])[0]
+[ERROR] 19-12-2023 23:21:59 [main] LogUtils - testAddToCart is fail.
+[INFO] 19-12-2023 23:23:46 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 19-12-2023 23:23:46 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 23:23:46 [main] LogUtils - Clear text in textbox By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 23:23:46 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 23:23:47 [main] LogUtils - Set text: Pierre Cardin on element By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 23:23:50 [main] LogUtils - Javascript in NOT Ready!
+[ERROR] 19-12-2023 23:24:01 [main] LogUtils - Element not exist. By.xpath: (//h3[@class='showcase-title'])[10]
+[ERROR] 19-12-2023 23:24:01 [main] LogUtils - testAddToCart is fail.
+[INFO] 19-12-2023 23:28:00 [main] LogUtils - Open: https://ecommerce.kendzz.com/
+[INFO] 19-12-2023 23:28:01 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 23:28:01 [main] LogUtils - Clear text in textbox By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 23:28:01 [main] LogUtils - Verify element visible By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 23:28:01 [main] LogUtils - Set text: Pierre Cardin on element By.xpath: //header/div[2]/div[1]/form[1]/input[1]
+[INFO] 19-12-2023 23:28:04 [main] LogUtils - Javascript in NOT Ready!
+[INFO] 19-12-2023 23:28:07 [main] LogUtils - Click on element with JS: By.xpath: (//h3[@class='showcase-title'])[4]
+[INFO] 19-12-2023 23:28:07 [main] LogUtils - Javascript in NOT Ready!
+[INFO] 19-12-2023 23:28:09 [main] LogUtils - Verify element visible By.xpath: //body/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/input[1]
+[INFO] 19-12-2023 23:28:09 [main] LogUtils - Clear text in textbox By.xpath: //body/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/input[1]
+[INFO] 19-12-2023 23:28:09 [main] LogUtils - Verify element visible By.xpath: //body/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/input[1]
+[INFO] 19-12-2023 23:28:09 [main] LogUtils - Set text: 1 on element By.xpath: //body/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/input[1]
+[INFO] 19-12-2023 23:28:09 [main] LogUtils - Verify element visible By.xpath: //button[contains(text(),'Thêm vào giỏ hàng')]
+[INFO] 19-12-2023 23:28:10 [main] LogUtils - Click element: By.xpath: //button[contains(text(),'Thêm vào giỏ hàng')]
+[INFO] 19-12-2023 23:28:10 [main] LogUtils - testAddToCart is pass.
