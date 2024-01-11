@@ -8,6 +8,7 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import projects.crm.com.report.ExtentReportManager;
+import projects.crm.com.utils.EmailSendUtils;
 import projects.crm.com.utils.LogUtils;
 
 public class TestListener implements ITestListener {
@@ -36,7 +37,7 @@ public class TestListener implements ITestListener {
         System.out.println("Finish Suite: " + result.getEndDate());
         CaptureHelpers.stopRecord();
         ExtentReportManager.getExtentReports().flush(); //Kết thúc và thực thi xuất report ra file
-        //EmailSendUtils.sendEmail(count_totalTCs, count_passedTCs, count_failedTCs, count_skippedTCs);
+        EmailSendUtils.sendEmail(count_totalTCs, count_passedTCs, count_failedTCs, count_skippedTCs);
 
     }
 

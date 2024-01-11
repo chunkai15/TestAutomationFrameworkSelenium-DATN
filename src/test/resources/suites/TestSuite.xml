@@ -4,7 +4,7 @@
 <test name="Test">
     <parameter name="browserType" value="chrome"/>
     <classes>
-        <class name="projects.crm.com.web.ecommerce.testcases.EndToEndTest">
+        <class name="projects.crm.com.web.ananDATN.testcases.EndToEndTest">
         </class>
     </classes>
 </test>

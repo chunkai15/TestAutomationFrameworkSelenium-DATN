@@ -13,7 +13,6 @@ import projects.crm.com.listeners.TestListener;
 @Listeners(TestListener.class)
 public class BaseSetup {
 
-    //Luôn chạy trước trong 1 class
     public BaseSetup() {
         //PropertiesHelpers.loadAllFiles();
     }
@@ -51,6 +50,10 @@ public class BaseSetup {
         System.out.println("Launching Chrome browser...");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
+        options.addArguments("--test-type");
+        options.addArguments("--incognito");
+        options.addArguments("--verbose");
+        options.addArguments("disable-infobars");
         WebDriver driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         return driver;

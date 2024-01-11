@@ -234,6 +234,15 @@ public class ExcelHelpers {
         return data;
     }
 
+    public int getRows() {
+        try {
+            return sheet.getLastRowNum();
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            throw (e);
+        }
+    }
+
     public int getColumns() {
         try {
             row = sheet.getRow(0);
